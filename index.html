@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Transform and Transition</title>
+</head>
+
+<body>
+
+    <h1>CSS Transform & Transition Properties</h1>
+
+    <p style="text-align:center;">
+        <strong>Hover over each box</strong> to see the effect.
+    </p>
+
+    <!-- =========================================================
+         TRANSLATE
+         ========================================================= -->
+
+    <div class="section">
+        <h2>1. Translate</h2>
+
+        <div class="demo-container">
+
+            <div class="box translate">
+                translate()
+            </div>
+
+            <div class="box translate-x">
+                translateX()
+            </div>
+
+            <div class="box translate-y">
+                translateY()
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- =========================================================
+         SCALE
+         ========================================================= -->
+
+    <div class="section">
+        <h2>2. Scale</h2>
+
+        <div class="demo-container">
+
+            <div class="box scale">
+                scale()
+            </div>
+
+            <div class="box scale-x">
+                scaleX()
+            </div>
+
+            <div class="box scale-y">
+                scaleY()
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- =========================================================
+         ROTATE
+         ========================================================= -->
+
+    <div class="section">
+        <h2>3. Rotate</h2>
+
+        <div class="demo-container">
+
+            <div class="box rotate">
+                rotate()
+            </div>
+
+            <div class="box rotate-x">
+                rotateX()
+            </div>
+
+            <div class="box rotate-y">
+                rotateY()
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- =========================================================
+         SKEW
+         ========================================================= -->
+
+    <div class="section">
+        <h2>4. Skew</h2>
+
+        <div class="demo-container">
+
+            <div class="box skew">
+                skew()
+            </div>
+
+            <div class="box skew-x">
+                skewX()
+            </div>
+
+            <div class="box skew-y">
+                skewY()
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- =========================================================
+         MULTIPLE TRANSFORMS
+         ========================================================= -->
+
+    <div class="section">
+        <h2>5. Multiple Transform Functions</h2>
+
+        <div class="demo-container">
+
+            <div class="box multiple">
+                Multiple
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- =========================================================
+         TRANSFORM ORIGIN
+         ========================================================= -->
+
+    <div class="section">
+        <h2>6. transform-origin</h2>
+
+        <div class="demo-container">
+
+            <div class="box origin-center">
+                center
+            </div>
+
+            <div class="box origin-top-left">
+                top left
+            </div>
+
+            <div class="box origin-bottom-right">
+                bottom right
+            </div>
+
+            <div class="box origin-custom">
+                100% 50%
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- =========================================================
+         TRANSFORM STYLE
+         ========================================================= -->
+
+    <div class="section">
+        <h2>7. transform-style</h2>
+
+        <div class="demo-container">
+
+            <div class="box flat">
+                flat
+            </div>
+
+            <div class="box preserve-3d">
+                preserve-3d
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- =========================================================
+         PERSPECTIVE
+         ========================================================= -->
+
+    <div class="section">
+        <h2>8. perspective</h2>
+
+        <div class="demo-container perspective-box">
+
+            <div class="box">
+                Hover Me
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================================================
+         BACKFACE VISIBILITY
+         ========================================================= -->
+
+    <div class="section">
+        <h2>9. backface-visibility</h2>
+
+        <div class="demo-container">
+
+            <div class="box backface-visible">
+                visible
+            </div>
+
+            <div class="box backface-hidden">
+                hidden
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- =========================================================
+         TRANSITION PROPERTY
+         ========================================================= -->
+
+    <div class="section">
+        <h2>10. transition-property</h2>
+
+        <div class="demo-container">
+
+            <div class="box transition-property">
+                transform
+            </div>
+
+        </div>
+
+        <p>
+            <code>transition-property: transform;</code>
+        </p>
+    </div>
+
+
+    <!-- =========================================================
+         TRANSITION DURATION
+         ========================================================= -->
+
+    <div class="section">
+        <h2>11. transition-duration</h2>
+
+        <div class="demo-container">
+
+            <div class="box duration">
+                2 seconds
+            </div>
+
+        </div>
+
+        <p>
+            <code>transition-duration: 2s;</code>
+        </p>
+    </div>
+
+
+    <!-- =========================================================
+         TRANSITION TIMING FUNCTION
+         ========================================================= -->
+
+    <div class="section">
+        <h2>12. transition-timing-function</h2>
+
+        <div class="demo-container">
+
+            <div class="box timing ease">
+                ease
+            </div>
+
+            <div class="box timing linear">
+                linear
+            </div>
+
+            <div class="box timing ease-in">
+                ease-in
+            </div>
+
+            <div class="box timing ease-out">
+                ease-out
+            </div>
+
+            <div class="box timing ease-in-out">
+                ease-in-out
+            </div>
+
+        </div>
+
+        <p>
+            Common values:
+            <code>ease</code>
+            <code>linear</code>
+            <code>ease-in</code>
+            <code>ease-out</code>
+            <code>ease-in-out</code>
+        </p>
+    </div>
+
+
+    <!-- =========================================================
+         TRANSITION DELAY
+         ========================================================= -->
+
+    <div class="section">
+        <h2>13. transition-delay</h2>
+
+        <div class="demo-container">
+
+            <div class="box delay">
+                1 second delay
+            </div>
+
+        </div>
+
+        <p>
+            <code>transition-delay: 1s;</code>
+        </p>
+    </div>
+
+
+    <!-- =========================================================
+         TRANSITION SHORTHAND
+         ========================================================= -->
+
+    <div class="section">
+        <h2>14. transition Shorthand</h2>
+
+        <div class="demo-container">
+
+            <div class="box shorthand">
+                Shorthand
+            </div>
+
+        </div>
+
+        <p>
+            <code>
+                transition: transform 1s ease 0.2s;
+            </code>
+        </p>
+    </div>
+
+
+    <!-- =========================================================
+         MULTIPLE TRANSITIONS
+         ========================================================= -->
+
+    <div class="section">
+        <h2>15. Multiple Transitions</h2>
+
+        <div class="demo-container">
+
+            <div class="box multiple-transition">
+                Multiple
+            </div>
+
+        </div>
+
+        <p>
+            Multiple properties can be transitioned at the same time.
+        </p>
+    </div>
+
+
+    <!-- =========================================================
+         TRANSITION ALL
+         ========================================================= -->
+
+    <div class="section">
+        <h2>16. transition: all</h2>
+
+        <div class="demo-container">
+
+            <div class="box transition-all">
+                transition: all
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- =========================================================
+         NONE
+         ========================================================= -->
+
+    <div class="section">
+        <h2>18. none</h2>
+
+        <div class="demo-container">
+
+            <div class="box none">
+                transform: none
+            </div>
+
+            <div class="box no-transition">
+                transition: none
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- =========================================================
+         REFERENCE TABLE
+         ========================================================= -->
+
+    <div class="section">
+
+        <h2>Transform Functions Reference</h2>
+
+        <table border="1" cellpadding="10" cellspacing="0" width="100%">
+
+            <tr>
+                <th>Function</th>
+                <th>Example Value</th>
+            </tr>
+
+            <tr>
+                <td>translate()</td>
+                <td>translate(50px, 30px)</td>
+            </tr>
+
+            <tr>
+                <td>translateX()</td>
+                <td>translateX(50px)</td>
+            </tr>
+
+            <tr>
+                <td>translateY()</td>
+                <td>translateY(50px)</td>
+            </tr>
+
+            <tr>
+                <td>scale()</td>
+                <td>scale(1.5)</td>
+            </tr>
+
+            <tr>
+                <td>scaleX()</td>
+                <td>scaleX(1.5)</td>
+            </tr>
+
+            <tr>
+                <td>scaleY()</td>
+                <td>scaleY(1.5)</td>
+            </tr>
+
+            <tr>
+                <td>rotate()</td>
+                <td>rotate(45deg)</td>
+            </tr>
+
+            <tr>
+                <td>rotateX()</td>
+                <td>rotateX(45deg)</td>
+            </tr>
+
+            <tr>
+                <td>rotateY()</td>
+                <td>rotateY(45deg)</td>
+            </tr>
+
+            <tr>
+                <td>skew()</td>
+                <td>skew(20deg, 10deg)</td>
+            </tr>
+
+            <tr>
+                <td>skewX()</td>
+                <td>skewX(20deg)</td>
+            </tr>
+
+            <tr>
+                <td>skewY()</td>
+                <td>skewY(20deg)</td>
+            </tr>
+
+            <tr>
+                <td>matrix()</td>
+                <td>matrix(1, 0, 0, 1, 50, 20)</td>
+            </tr>
+
+            <tr>
+                <td>matrix3d()</td>
+                <td>matrix3d(...)</td>
+            </tr>
+
+        </table>
+
+
+        <h2>Transition Properties Reference</h2>
+
+        <table border="1" cellpadding="10" cellspacing="0" width="100%">
+
+            <tr>
+                <th>Property</th>
+                <th>Example Values</th>
+            </tr>
+
+            <tr>
+                <td>transition-property</td>
+                <td>none, all, transform, opacity</td>
+            </tr>
+
+            <tr>
+                <td>transition-duration</td>
+                <td>0s, 0.5s, 1s, 2s</td>
+            </tr>
+
+            <tr>
+                <td>transition-timing-function</td>
+                <td>
+                    ease, linear, ease-in,
+                    ease-out, ease-in-out
+                </td>
+            </tr>
+
+            <tr>
+                <td>transition-delay</td>
+                <td>0s, 0.5s, 1s</td>
+            </tr>
+
+            <tr>
+                <td>transition</td>
+                <td>property duration timing-function delay</td>
+            </tr>
+
+        </table>
+
+    </div>
+
+
+</body>
+
+</html>
